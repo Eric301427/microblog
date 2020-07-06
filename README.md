@@ -1,9 +1,11 @@
 # Microblog
 
 To install all dependencies:
-  >pip install -r requirements.txt
   >virtualenv venv
   >venv/bin/activate
+  >pip install -r requirements.txt
+  >flask db upgrade - sync database
+  
 run application: 
   >python run --host=127.0.0.1 --port=5000
 
